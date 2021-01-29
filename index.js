@@ -29,7 +29,7 @@ class Backend{
 }
 
 const weather = new Backend;
-weather.setBaseUrl("http://api.weatherapi.com/v1/current.json?key= 6e1d028ccb944323bb4150319212701&q=");
+weather.setBaseUrl("https://api.weatherapi.com/v1/current.json?key= 6e1d028ccb944323bb4150319212701&q=");
 //const weatherInfo = weather.get("london");
 const form = document.querySelector("#add-item-form")
 const selectLocation = document.querySelector("#item-name")
